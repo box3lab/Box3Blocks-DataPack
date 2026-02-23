@@ -4,6 +4,21 @@
 
 ## 新增方块的完整流程
 
+### 前置步骤：Fork 仓库
+
+- 在 GitHub 上 Fork 本仓库到你的账户
+- 克隆你的 Fork 到本地进行开发
+- **重要**：每次开发前，请先同步官方仓库的最新代码，避免版本落后或导致冲突
+- **开发分支**：请基于 `dev` 分支创建新的功能分支进行开发。
+- 修改完成后向官方仓库的 `dev` 分支提交 Pull Request
+
+**推荐：测试数据包**：
+
+- 将整个项目克隆到你的空的世界存档的 `datapacks` 目录中。
+- 路径示例：`.minecraft/saves/你的世界名/datapacks/`
+- Minecraft 会自动读取 `box3formula` 文件夹作为数据包。
+  ![](https://cdn-community.bcmcdn.com/47/community/A7GBBjeZ9DYuPoRf4FT1UVwbOssD6Ia63ChxbAscwcxe.png?hash=Fln_Za5ISvi4Q3vVu6DPE6KKSEVK)
+
 ### 1. 查看神岛方块 ID
 
 - `block-id.json` 是只读文件，包含神岛模组提供的所有方块 ID。
@@ -76,12 +91,6 @@ python3 check_blocks.py
 
 ## 测试要求
 
-1. **安装数据包**：
-   - 将整个项目克隆到你的世界存档的 `datapacks` 目录中。
-   - 路径示例：`.minecraft/saves/你的世界名/datapacks/`
-   - Minecraft 会自动读取 `box3formula` 文件夹作为数据包。
-     ![](https://cdn-community.bcmcdn.com/47/community/A7GBBjeZ9DYuPoRf4FT1UVwbOssD6Ia63ChxbAscwcxe.png?hash=Fln_Za5ISvi4Q3vVu6DPE6KKSEVK)
-
 2. **游戏内测试**：
    - 进入世界后，数据包会自动加载。
    - 测试新增的配方是否可以在合成台中使用。
@@ -95,7 +104,6 @@ python3 check_blocks.py
 
 ## 提交规范
 
-- **分支**：请基于 `main` 分支创建新分支进行开发。
 - **Commit 消息**：使用语义化格式，如 `feat:`、`fix:`、`docs:` 等。
 - **PR 说明**：简要说明修改内容，必要时附上游戏内截图或测试说明。
 
