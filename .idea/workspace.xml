@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="196dcffd-0f23-47ff-b3a3-a42caa4edc93" name="更改" comment="feature: adding loot tables for all blocks, exactly the same as &quot;grass.json&quot;">
-      <change afterPath="$PROJECT_DIR$/box3formula/data/box3/recipe/bounce_pad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box3formula/data/box3/recipe/honeycomb_01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box3formula/data/box3/recipe/honeycomb_02" afterDir="false" />
+    <list default="true" id="196dcffd-0f23-47ff-b3a3-a42caa4edc93" name="更改" comment="feature: 为数字、字母、符号、弹跳垫、两种蜂巢添加配方">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/A.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/B.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/C.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/D.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/E.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/F.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/G.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/H.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/I.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/J.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/K.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/L.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/M.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/N.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/O.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/P.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/Q.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/R.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/S.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/T.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/U.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/V.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/W.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/X.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/Y.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/Z.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +101,29 @@
       <option name="project" value="LOCAL" />
       <updated>1771838289399</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature: 为数字、字母、符号、弹跳垫、两种蜂巢添加配方">
+      <option name="closed" value="true" />
+      <created>1771846139147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771846139147</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature: 为数字、字母、符号、弹跳垫、两种蜂巢添加配方">
+      <option name="closed" value="true" />
+      <created>1771846151517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771846151517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge pull request #7 from box3lab/dev&#10;&#10;chore(workflow): 更新GitHub Actions上传工件动作到v4版本" />
     <MESSAGE value="feature: adding loot tables for all blocks, exactly the same as &quot;grass.json&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: adding loot tables for all blocks, exactly the same as &quot;grass.json&quot;" />
+    <MESSAGE value="feature: 为数字、字母、符号、弹跳垫、两种蜂巢添加配方" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 为数字、字母、符号、弹跳垫、两种蜂巢添加配方" />
   </component>
 </project>
