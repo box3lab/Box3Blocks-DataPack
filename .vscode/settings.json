@@ -1,0 +1,10 @@
+{
+  "cSpell.words": ["basenames", "datapack", "datapacks", "mcfunction"],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.guides.bracketPairs": "active"
+}
