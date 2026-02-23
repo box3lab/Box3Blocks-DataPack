@@ -75,10 +75,40 @@ def list_json_basenames(directory: Path) -> set[str]:
     return names
 
 
+def index_block_files(block_names: set[str], directory: Path) -> tuple[dict[str, set[str]], list[str]]:
+    if not directory.exists():
+        print(f"[警告] 目录不存在: {directory}")
+        return {name: set() for name in block_names}, []
+
+    block_to_files: dict[str, set[str]] = {name: set() for name in block_names}
+    extra_files: list[str] = []
+
+    stems: list[str] = []
+    for entry in directory.iterdir():
+        if entry.is_file() and entry.suffix == ".json":
+            stems.append(entry.stem)
+
+    for stem in stems:
+        best_block: str | None = None
+        for block in block_names:
+            if stem == block or stem.startswith(block + "_"):
+                if best_block is None or len(block) > len(best_block):
+                    best_block = block
+
+        if best_block is not None:
+            block_to_files.setdefault(best_block, set()).add(stem)
+        else:
+            extra_files.append(stem)
+
+    return block_to_files, extra_files
+
+
 def write_markdown_report(
     block_names: set[str],
-    recipe_files: set[str],
-    loot_files: set[str],
+    recipe_map: dict[str, set[str]],
+    loot_map: dict[str, set[str]],
+    total_recipe_files: int,
+    total_loot_files: int,
     extra_recipe: list[str],
     extra_loot: list[str],
 ) -> None:
@@ -89,8 +119,8 @@ def write_markdown_report(
     lines.append("# 方块检查报告")
     lines.append("")
     lines.append(f"- 总方块数量：{len(block_names)}")
-    lines.append(f"- recipe 文件数：{len(recipe_files)}")
-    lines.append(f"- loot_table/blocks 文件数：{len(loot_files)}")
+    lines.append(f"- recipe 文件数：{total_recipe_files}")
+    lines.append(f"- loot_table/blocks 文件数：{total_loot_files}")
     lines.append("")
 
     # 总览表
@@ -101,13 +131,17 @@ def write_markdown_report(
 
     # 排序：优先显示 recipe 和 loot 都完成的方块，然后再显示有缺失的
     def sort_key(block_name: str) -> tuple[int, int, str]:
-        recipe_flag = 0 if block_name in recipe_files else 1
-        loot_flag = 0 if block_name in loot_files else 1
+        recipe_count = len(recipe_map.get(block_name, set()))
+        loot_count = len(loot_map.get(block_name, set()))
+        recipe_flag = 0 if recipe_count > 0 else 1
+        loot_flag = 0 if loot_count > 0 else 1
         return (recipe_flag + loot_flag, recipe_flag, loot_flag, block_name)
 
     for name in sorted(block_names, key=sort_key):
-        has_recipe = "🎉" if name in recipe_files else "❌"
-        has_loot = "🎉" if name in loot_files else "❌"
+        recipe_count = len(recipe_map.get(name, set()))
+        loot_count = len(loot_map.get(name, set()))
+        has_recipe = "❌" if recipe_count == 0 else f"🎉 x{recipe_count}"
+        has_loot = "❌" if loot_count == 0 else f"🎉 x{loot_count}"
         lines.append(f"| {name} | {has_recipe} | {has_loot} |")
 
     # 多余文件
@@ -150,30 +184,23 @@ def main():
     block_names = load_block_names_from_block_id(BLOCK_ID_JSON)
     print(f"从 block-id.json 读取到 {len(block_names)} 个方块")
 
-    # 2. 读取 recipe 目录的文件名
-    recipe_files = list_json_basenames(RECIPE_DIR)
-    print(f"\nrecipe 目录中找到 {len(recipe_files)} 个 json 文件")
+    # 2. 读取并按方块名归类 recipe 目录的文件
+    recipe_map, extra_recipe = index_block_files(block_names, RECIPE_DIR)
+    total_recipe_files = sum(len(v) for v in recipe_map.values()) + len(extra_recipe)
+    print(f"\nrecipe 目录中找到 {total_recipe_files} 个 json 文件")
 
-    # 3. 读取 loot_table/blocks 目录的文件名
-    loot_files = list_json_basenames(LOOT_TABLE_BLOCKS_DIR)
-    print(f"\nloot_table/blocks 目录中找到 {len(loot_files)} 个 json 文件")
+    # 3. 读取并按方块名归类 loot_table/blocks 目录的文件
+    loot_map, extra_loot = index_block_files(block_names, LOOT_TABLE_BLOCKS_DIR)
+    total_loot_files = sum(len(v) for v in loot_map.values()) + len(extra_loot)
+    print(f"\nloot_table/blocks 目录中找到 {total_loot_files} 个 json 文件")
 
-    # 4. 检查缺失和多余
-
-    # 缺少 recipe 的方块
-    missing_recipe = sorted(block_names - recipe_files)
-    # 缺少 loot_table 的方块
-    missing_loot = sorted(block_names - loot_files)
-
-    # recipe 和 loot 表中多出来、但不在 block-id.json 里的名字
-    extra_recipe = sorted(recipe_files - block_names)
-    extra_loot = sorted(loot_files - block_names)
-
-    # 5. 写入 Markdown 报告
+    # 4. 写入 Markdown 报告
     write_markdown_report(
         block_names=block_names,
-        recipe_files=recipe_files,
-        loot_files=loot_files,
+        recipe_map=recipe_map,
+        loot_map=loot_map,
+        total_recipe_files=total_recipe_files,
+        total_loot_files=total_loot_files,
         extra_recipe=extra_recipe,
         extra_loot=extra_loot,
     )

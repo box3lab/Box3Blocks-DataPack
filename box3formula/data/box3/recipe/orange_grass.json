@@ -1,12 +1,9 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        "box3:grass",
-        "minecraft:orange_dye"
-    ],
-    "result": {
-        "id": "box3:orange_grass",
-        "count": 1
-    },
-    "group": "grass"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": ["box3:grass", "minecraft:orange_dye"],
+  "result": {
+    "id": "box3:orange_grass",
+    "count": 1
+  },
+  "group": "orange_grass"
 }

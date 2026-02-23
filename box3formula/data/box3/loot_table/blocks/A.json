@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "box3:A"
+          "name": "box3:a"
         }
       ],
       "conditions": [

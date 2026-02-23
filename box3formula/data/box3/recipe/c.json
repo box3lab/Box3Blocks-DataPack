@@ -1,16 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "# ",
-        " B"
-    ],
-    "key": {
-        "#": "box3:zero",
-        "B": "box3:three"
-    },
-    "result": {
-        "id": "box3:c",
-        "count": 2
-    },
-    "group": "letters"
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["# ", " B"],
+  "key": {
+    "#": "box3:zero",
+    "B": "box3:three"
+  },
+  "result": {
+    "id": "box3:c",
+    "count": 2
+  }
 }

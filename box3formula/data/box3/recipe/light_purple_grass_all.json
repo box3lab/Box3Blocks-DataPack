@@ -1,16 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "# #",
-        "###"
-    ],
-    "key": {
-        "#": "box3:light_purple_grass"
-    },
-    "result": {
-        "id": "box3:light_purple_grass_all",
-        "count": 8
-    },
-    "group": "grass"
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "# #", "###"],
+  "key": {
+    "#": "box3:light_purple_grass"
+  },
+  "result": {
+    "id": "box3:light_purple_grass_all",
+    "count": 8
+  },
+  "group": "light_purple_grass_all"
 }

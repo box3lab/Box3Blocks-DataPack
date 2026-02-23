@@ -31,7 +31,7 @@
 
 #### 方式一：可视化编辑（推荐）
 
-- 使用在线配方编辑器：https://crafting.thedungeone7i0n.ca/
+- 使用在线配方编辑器：https://crafting.thedestruc7i0n.ca/
 - **配置选项**：在编辑器中设置 `Minecraft Version` 为 `Java 1.21.11`。
 - 在编辑器中拖拽设计配方，导出 JSON。
 - **重要**：导出的 JSON 使用原版方块 ID，你需要手动替换为神岛方块 ID（带 `box3:` 前缀）。
@@ -49,6 +49,20 @@
 ```
 box3formula/data/box3/recipe/grass.json
 ```
+
+#### 同一方块的多个合成配方
+
+- 如果一个方块只有 **一个** 合成配方：
+  - 文件名为去掉命名空间后的方块名，例如：`grass.json`、`special_grass_14.json`。
+- 如果一个方块有 **多个** 合成配方：
+  - 在方块名后追加下划线和自定义标识，例如：
+    - 以`grass`方块为例，`grass_fast.json`、`grass_slow.json`
+    - 以`special_grass_14`方块为例，`special_grass_14_mode1.json`、`special_grass_14_mode2.json`
+  - 约定形式为：`<方块名>_<自定义后缀>.json`，例如：`special_grass_14_xxx.json`。
+- **group 字段要求**：
+  - 所有属于**同一个方块**的产出配方，其 JSON 中的 `group` 字段必须与方块名完全一致（去掉命名空间）。
+  - 例如：方块 ID 为 `box3:special_grass_14`，则所有该方块的配方文件（如 `special_grass_14.json`、`special_grass_14_mode1.json`）中：
+    - `group` 字段都应为：`"special_grass_14"`。
 
 ### 3. 创建战利品表（方块破坏掉落）
 

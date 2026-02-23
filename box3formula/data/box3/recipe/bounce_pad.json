@@ -1,16 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "iii",
-        "iSi",
-        "iii"
-    ],
-    "key": {
-        "i": "minecraft:iron_ingot",
-        "S": "minecraft:slime_block"
-    },
-    "result": {
-        "id": "box3:bounce_pad",
-        "count": 4
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["iii", "iSi", "iii"],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "S": "minecraft:slime_block"
+  },
+  "result": {
+    "id": "box3:bounce_pad",
+    "count": 4
+  }
 }
