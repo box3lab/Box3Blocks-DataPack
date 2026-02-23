@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "box3:grass"
+          "name": "box3:light_grey_stone_brick"
         }
       ],
       "conditions": [

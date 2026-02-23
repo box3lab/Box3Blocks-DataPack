@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "box3:grass"
+          "name": "box3:snowman_body"
         }
       ],
       "conditions": [
