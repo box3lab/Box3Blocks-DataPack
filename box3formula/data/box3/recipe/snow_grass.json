@@ -1,12 +1,9 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        "minecraft:snowball",
-        "box3:grass"
-    ],
-    "result": {
-        "id": "box3:snow_grass",
-        "count": 1
-    },
-    "group": "grass"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": ["minecraft:snowball", "box3:grass"],
+  "result": {
+    "id": "box3:snow_grass",
+    "count": 1
+  },
+  "group": "snow_grass"
 }

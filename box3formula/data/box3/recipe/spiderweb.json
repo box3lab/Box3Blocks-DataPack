@@ -1,15 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-      "###",
-      "# #",
-      "###"
-  ],
+  "pattern": ["###", "# #", "###"],
   "key": {
-      "#": "minecraft:cobweb"
+    "#": "minecraft:cobweb"
   },
   "result": {
-      "id": "box3:spiderweb",
-      "count": 8
+    "id": "box3:spiderweb",
+    "count": 8
   }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
   "ingredients": ["minecraft:dirt", "minecraft:dirt"],
   "result": {
     "id": "box3:grass",

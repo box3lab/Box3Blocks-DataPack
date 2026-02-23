@@ -1,17 +1,13 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " B ",
-        "B#B",
-        " B "
-    ],
-    "key": {
-        "#": "box3:grass",
-        "B": "minecraft:pink_dye"
-    },
-    "result": {
-        "id": "box3:pink_grass_all",
-        "count": 1
-    },
-    "group": "grass"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", "B#B", " B "],
+  "key": {
+    "#": "box3:grass",
+    "B": "minecraft:pink_dye"
+  },
+  "result": {
+    "id": "box3:pink_grass_all",
+    "count": 1
+  },
+  "group": "pink_grass_all"
 }

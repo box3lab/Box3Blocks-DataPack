@@ -1,16 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "H#H",
-        "#H#",
-        "H#H"
-    ],
-    "key": {
-        "#": "minecraft:honey_bottle",
-        "H": "minecraft:honeycomb"
-    },
-    "result": {
-        "id": "box3:honeycomb_02",
-        "count": 8
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["H#H", "#H#", "H#H"],
+  "key": {
+    "#": "minecraft:honey_bottle",
+    "H": "minecraft:honeycomb"
+  },
+  "result": {
+    "id": "box3:honeycomb_02",
+    "count": 8
+  }
 }
