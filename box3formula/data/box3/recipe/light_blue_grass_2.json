@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": ["minecraft:dirt", "minecraft:dirt", "minecraft:light_blue_dye"],
+  "result": {
+    "id": "box3:light_blue_grass",
+    "count": 1
+  },
+  "group": "light_blue_grass"
+}
