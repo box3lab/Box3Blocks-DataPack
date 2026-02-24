@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196dcffd-0f23-47ff-b3a3-a42caa4edc93" name="更改" comment="feature: 为数字、字母、符号、弹跳垫、两种蜂巢添加配方">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/A.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/B.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/C.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/D.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/E.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/F.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/G.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/H.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/I.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/J.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/K.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/L.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/M.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/N.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/O.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/P.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/Q.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/R.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/S.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/T.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/U.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/V.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/W.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/X.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/Y.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/recipe/Z.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/A.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/a.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +14,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
