@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "##",
+      "##"
+  ],
+  "key": {
+      "#": "minecraft:dirt"
+  },
+  "result": {
+      "id": "box3:dirt",
+      "count": 4
+  }
+}
