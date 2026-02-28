@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "box3:board0",
+  "result": {
+      "id": "box3:board1",
+      "count": 1
+  }
+}

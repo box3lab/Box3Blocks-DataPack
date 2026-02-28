@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "##",
+      "##"
+  ],
+  "key": {
+      "#": "#leaves"
+  },
+  "result": {
+      "id": "box3:green_leaf",
+      "count": 4
+  }
+}

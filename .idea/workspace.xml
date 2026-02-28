@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="196dcffd-0f23-47ff-b3a3-a42caa4edc93" name="更改" comment="fix: 修复了字母方块无掉落物的bug" />
+    <list default="true" id="196dcffd-0f23-47ff-b3a3-a42caa4edc93" name="更改" comment="feat: modifing loot tables for grass blocks">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/dark_grass_rock.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/dark_grass_rock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/dark_grass_sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/dark_grass_sand.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/dark_stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/dark_stone.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/grass_rock.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/grass_rock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/grass_sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/grass_sand.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/polar_region.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/polar_region.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/purple_surface_01.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/purple_surface_01.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/purple_surface_02.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/purple_surface_02.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/snow_grass.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/snow_grass.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/snow_land.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/snow_land.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/snowland.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/snowland.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_grass_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_grass_13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_grass_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_grass_15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_sand_01.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_sand_01.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_sand_02.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_sand_02.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_sand_03.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/special_sand_03.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/stone.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/white_grass.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/white_grass.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/withered_grass_land.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/withered_grass_land.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/yellow_grass.json" beforeDir="false" afterPath="$PROJECT_DIR$/box3formula/data/box3/loot_table/blocks/yellow_grass.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771909387662</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix: 修复了字母方块无掉落物的bug">
+      <option name="closed" value="true" />
+      <created>1771909667166</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771909667166</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: modifing loot tables for grass blocks">
+      <option name="closed" value="true" />
+      <created>1771949180062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771949180062</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,6 +144,7 @@
     <MESSAGE value="feature: adding loot tables for all blocks, exactly the same as &quot;grass.json&quot;" />
     <MESSAGE value="feature: 为数字、字母、符号、弹跳垫、两种蜂巢添加配方" />
     <MESSAGE value="fix: 修复了字母方块无掉落物的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 修复了字母方块无掉落物的bug" />
+    <MESSAGE value="feat: modifing loot tables for grass blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: modifing loot tables for grass blocks" />
   </component>
 </project>

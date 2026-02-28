@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "###",
+      "###"
+  ],
+  "key": {
+      "#": "minecraft:spruce_planks"
+  },
+  "result": {
+      "id": "box3:plank_02",
+      "count": 9
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": ["#stone_buttons", "minecraft:stone"],
+    "result": {
+        "count": 1,
+	"id": "box3:button"
+    }
+}
