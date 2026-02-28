@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["#", "#"],
+  "key": { "#": "minecraft:oak_log"},
+  "result": { "id": "box3:wood", "count": 2 }
+}
