@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###",
+              "# #",
+              "###"],
+  "key": {
+    "#": "box3:dark_blue_grass"
+  },
+  "result": {
+    "id": "box3:dark_blue_grass_all",
+    "count": 8
+  },
+  "group": "dark_blue_grass_all"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      "box3:sky_blue",
+      "box3:powder_blue"
+  ],
+  "result": {
+    "id": "box3:cadet_blue",
+    "count": 2
+  }
+}

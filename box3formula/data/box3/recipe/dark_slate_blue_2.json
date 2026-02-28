@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "#B#",
+      "###"
+  ],
+  "key": {
+      "#": "box3:blue",
+      "B": "minecraft:gray_dye"
+  },
+  "result": {
+      "id": "box3:dark_slate_blue",
+      "count": 8
+  },
+  "group": "dark_slate_blue"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": "box3:blue",
+        "B": "minecraft:white_dye"
+    },
+    "result": {
+        "id": "box3:sky_blue",
+        "count": 8
+    },
+    "group": "sky_blue"
+  }
