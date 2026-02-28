@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "#B#",
+      "###"
+  ],
+  "key": {
+      "#": "box3:yellow_green",
+      "B": "minecraft:white_dye"
+  },
+  "result": {
+      "id": "box3:pale_green",
+      "count": 8
+  }
+}

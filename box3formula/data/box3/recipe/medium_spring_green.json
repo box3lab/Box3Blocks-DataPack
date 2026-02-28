@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "#B#",
+      "###"
+  ],
+  "key": {
+      "#": "box3:medium_green",
+      "B": "minecraft:blue_dye"
+  },
+  "result": {
+      "id": "box3:medium_spring_green",
+      "count": 8
+  }
+}
