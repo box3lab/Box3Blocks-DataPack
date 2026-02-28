@@ -129,13 +129,12 @@ def write_markdown_report(
     lines.append("| 方块名 | 合成配方 | 破坏掉落 |")
     lines.append("| ------ | -------- | -------- |")
 
-    # 排序：优先显示 recipe 和 loot 都完成的方块，然后再显示有缺失的
+    # 排序：按完成度降序（先按合成配方数量降序，再按破坏掉落数量降序）
     def sort_key(block_name: str) -> tuple[int, int, str]:
         recipe_count = len(recipe_map.get(block_name, set()))
         loot_count = len(loot_map.get(block_name, set()))
-        recipe_flag = 0 if recipe_count > 0 else 1
-        loot_flag = 0 if loot_count > 0 else 1
-        return (recipe_flag + loot_flag, recipe_flag, loot_flag, block_name)
+        # 使用负数实现降序排序
+        return (-recipe_count, -loot_count, block_name)
 
     for name in sorted(block_names, key=sort_key):
         recipe_count = len(recipe_map.get(name, set()))
