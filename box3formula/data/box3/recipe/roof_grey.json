@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "DDD"
+    ],
+    "key": {
+        "#": "minecraft:deepslate_bricks",
+        "D": "minecraft:deepslate_tiles"
+    },
+    "result": {
+        "id": "box3:roof_grey",
+        "count": 6
+    }
+}

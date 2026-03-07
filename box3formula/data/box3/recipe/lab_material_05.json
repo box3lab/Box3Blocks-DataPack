@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "SPS",
+        "#S#"
+    ],
+    "key": {
+        "#": "minecraft:black_dye",
+        "S": "box3:mint_green_light",
+        "P": "box3:lab_material_01"
+    },
+    "result": {
+        "id": "box3:lab_material_05",
+        "count": 4
+    }
+}

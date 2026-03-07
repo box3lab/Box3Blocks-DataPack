@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "PPP",
+        "PPP"
+    ],
+    "key": {
+        "#": "minecraft:blue_dye",
+        "P": "box3:lab_material_10"
+    },
+    "result": {
+        "id": "box3:lab_material_11",
+        "count": 6
+    }
+}

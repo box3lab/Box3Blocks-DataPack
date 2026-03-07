@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "OBO",
+        "###"
+    ],
+    "key": {
+        "#": "box3:lab_material_09",
+        "O": "minecraft:orange_dye",
+        "B": "minecraft:black_dye"
+    },
+    "result": {
+        "id": "box3:lab_material_12",
+        "count": 6
+    }
+}

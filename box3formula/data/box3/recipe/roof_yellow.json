@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "box3:roof_grey",
+        "minecraft:yellow_dye"
+    ],
+    "result": {
+        "id": "box3:roof_yellow",
+        "count": 1
+    }
+}

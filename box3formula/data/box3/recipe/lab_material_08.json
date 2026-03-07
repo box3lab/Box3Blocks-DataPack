@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "CPC",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:gray_dye",
+        "C": "minecraft:copper_torch",
+        "P": "box3:lab_material_10"
+    },
+    "result": {
+        "id": "box3:lab_material_08",
+        "count": 3
+    }
+}

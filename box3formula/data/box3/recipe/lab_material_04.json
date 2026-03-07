@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        " P ",
+        "# #"
+    ],
+    "key": {
+        "#": "minecraft:gray_dye",
+        "P": "box3:lab_material_03"
+    },
+    "result": {
+        "id": "box3:lab_material_04",
+        "count": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:iron_bars"
+    },
+    "result": {
+        "id": "box3:lab_material_14",
+        "count": 1
+    }
+}
