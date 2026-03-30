@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W",
+        "WL"
+    ],
+    "key": {
+        "#": "minecraft:blue_concrete",
+        "W": "minecraft:white_concrete",
+        "L": "minecraft:light_blue_concrete"
+    },
+    "result": {
+        "id": "box3:carpet_09",
+        "count": 4
+    }
+}

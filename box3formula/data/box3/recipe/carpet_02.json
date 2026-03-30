@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W#",
+        "B#B",
+        "WBW"
+    ],
+    "key": {
+        "#": "minecraft:light_blue_terracotta",
+        "W": "minecraft:white_terracotta",
+        "B": "minecraft:blue_terracotta"
+    },
+    "result": {
+        "id": "box3:carpet_02",
+        "count": 9
+    }
+}

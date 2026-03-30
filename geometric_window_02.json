@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "box3:window",
+    "result": {
+        "id": "box3:geometric_window_02",
+        "count": 1
+    }
+}

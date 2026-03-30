@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "iTi",
+        " i "
+    ],
+    "key": {
+        "i": "minecraft:iron_ingot",
+        "T": "minecraft:torch"
+    },
+    "result": {
+        "id": "box3:lantern_02",
+        "count": 1
+    }
+}

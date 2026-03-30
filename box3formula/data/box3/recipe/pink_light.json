@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "box3:pink",
+        "minecraft:torch"
+    ],
+    "result": {
+        "id": "box3:pink_light",
+        "count": 1
+    }
+}

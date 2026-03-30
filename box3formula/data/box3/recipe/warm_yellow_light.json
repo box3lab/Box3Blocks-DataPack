@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "box3:navajo_white",
+        "minecraft:torch"
+    ],
+    "result": {
+        "id": "box3:warm_yellow_light",
+        "count": 1
+    }
+}

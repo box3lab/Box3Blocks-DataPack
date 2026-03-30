@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O",
+        "O#"
+    ],
+    "key": {
+        "#": "minecraft:yellow_terracotta",
+        "O": "minecraft:orange_terracotta"
+    },
+    "result": {
+        "id": "box3:carpet_01",
+        "count": 4
+    }
+}

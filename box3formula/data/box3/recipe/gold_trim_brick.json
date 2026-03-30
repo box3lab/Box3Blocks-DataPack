@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Y#",
+        "Y#Y",
+        "#Y#"
+    ],
+    "key": {
+        "#": "minecraft:white_concrete",
+        "Y": "minecraft:yellow_concrete"
+    },
+    "result": {
+        "id": "box3:gold_trim_brick",
+        "count": 9
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:deepslate",
+        "minecraft:deepslate",
+        "minecraft:deepslate",
+        "minecraft:deepslate"
+    ],
+    "result": {
+        "id": "box3:roof_grey",
+        "count": 4
+    }
+}
