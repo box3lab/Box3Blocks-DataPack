@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:yellow_concrete",
+        "minecraft:glow_ink_sac"
+    ],
+    "result": {
+        "id": "box3:yellow_light",
+        "count": 1
+    }
+}

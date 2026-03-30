@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:blue_ice"
+    },
+    "result": {
+        "id": "box3:ice_brick",
+        "count": 6
+    }
+}
