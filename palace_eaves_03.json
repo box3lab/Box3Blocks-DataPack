@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:green_glazed_terracotta",
+    "result": {
+        "id": "box3:palace_eaves_03",
+        "count": 1
+    }
+}

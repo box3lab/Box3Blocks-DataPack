@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#S#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:stone",
+        "S": "minecraft:smooth_stone"
+    },
+    "result": {
+        "id": "box3:light_grey_stone_brick",
+        "count": 9
+    }
+}

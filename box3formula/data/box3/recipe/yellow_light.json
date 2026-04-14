@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "box3:lemon",
+        "minecraft:torch"
+    ],
+    "result": {
+        "id": "box3:yellow_light",
+        "count": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#T#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:stripped_oak_log",
+        "T": "minecraft:torch"
+    },
+    "result": {
+        "id": "box3:lantern_01",
+        "count": 4
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        "/ /",
+        "///"
+    ],
+    "key": {
+        "/": "box3:plank_03"
+    },
+    "result": {
+        "id": "box3:wooden_box",
+        "count": 8
+    }
+}

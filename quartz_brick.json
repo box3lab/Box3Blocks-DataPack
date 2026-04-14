@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#S#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sandstone",
+        "S": "minecraft:smooth_sandstone"
+    },
+    "result": {
+        "id": "box3:quartz_brick",
+        "count": 9
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "box3:window",
+    "result": {
+        "id": "box3:cross_window",
+        "count": 1
+    }
+}
